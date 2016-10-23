@@ -1,0 +1,36 @@
+#+TITLE: Open Science
+#+SUBTITLE: Wissenschaft im digitalen Zeitalter
+#+AUTHOR: Tim Becker, Albert Krewinkel
+#+DATE: 11.11.2016
+#+OPTIONS: H:9
+
+* Was ist Open Science
+
+** Publizieren
+- Methoden des letzten Jahrhunderts
+- Ein System des vorletzten Jahrhunderts
+- Wichtige Informationen werden vorenthalten
+
+** Daten und Code
+- Warum beides so wichtig ist
+- Probleme im aktuellen System
+
+** Reproduzierbarkeit
+   Warum das wichtig ist.
+*** Fehler finden
+
+
+* Kultur
+
+** Wissenschaftliche Kultur
+- Publikationen wichtig für Karriere
+- Papers momentan einziger Weg
+- Daten und Code werden nicht gewürdigt
+
+** Effekte von Open Science
+- Überprüfbarkeit von Ergebnissen
+- Fehler sind leichter zu finden
+- Beschleunigter Fortschritt
+
+
+* Open Source Science Tools
