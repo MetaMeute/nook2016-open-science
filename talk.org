@@ -1,26 +1,26 @@
 #+TITLE: Open Science
 #+SUBTITLE: Wissenschaft im digitalen Zeitalter
 #+AUTHOR: Tim Becker, Albert Krewinkel
-#+DATE: 11.11.2016
-#+OPTIONS: H:9
+#+DATE: MetaNook, 11.11.2016
+#+OPTIONS: H:9 todo:nil
 
-* Was ist Open Science
+* TODO Was ist Open Science?
 
-** Publizieren
+** Offene Publikationen
 - Methoden des letzten Jahrhunderts
 - Ein System des vorletzten Jahrhunderts
 - Wichtige Informationen werden vorenthalten
 
-** Daten und Code
+** Verfügbarbarkeit von Daten und Code
 - Warum beides so wichtig ist
 - Probleme im aktuellen System
 
-** Reproduzierbarkeit
-   Warum das wichtig ist.
-*** Fehler finden
+** Reproduzierbare Ergebnisse
+- Grundlage der Wissenschaft
+- Auffindbarkeit von Fehlern
 
 
-* Kultur
+* TODO Kultur
 
 ** Wissenschaftliche Kultur
 - Publikationen wichtig für Karriere
@@ -33,4 +33,24 @@
 - Beschleunigter Fortschritt
 
 
-* Open Source Science Tools
+* TODO Open Source Science Tools                                        :Tim:
+
+** Source Code
+- ~git~ :: Versionskontrolle
+-  [[https://github.com][GitHub]] :: (Standard-)Webseite zum Hosten des Codes
+
+** Daten
+- ~git~ :: auch Daten haben Versionen
+- [[https://dat-data.org][~dat~]] :: Sicherer transfer; verteilte und versionierte Daten
+
+** TODO Texte
+- [[https://jupyter.org][Jupyter]] :: Notebook Software
+- [[http://pandoc.org][Pandoc]] :: Universeller Dokumentenkonverter
+- [[https://authorea.com/][Authorea]] :: Kollaboratives Schreiben
+
+
+* Fin
+
+** Danke!
+Folien sind Online unter\\
+<https://github.com/MetaMeute/nook2016-open-science>.
