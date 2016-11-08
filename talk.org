@@ -27,10 +27,26 @@
 - Papers momentan einziger Weg
 - Daten und Code werden nicht gewürdigt
 
+** Publikationsformate
+#+CAPTION: Pochoda (2012)
+#+NAME: pubformats
+#+LABEL: fig:pubformats
+#+ATTR_HTML: :width 85%
+[[file:img/dynamic_publication_formats_4.png]]
+
 ** Effekte von Open Science
 - Überprüfbarkeit von Ergebnissen
 - Fehler sind leichter zu finden
 - Beschleunigter Fortschritt
+- Neue Publikationsmöglichkeiten
+
+** Dynamische Publikationen
+
+#+CAPTION: Heller, The und Bartling (2013)
+#+NAME: dynpub
+#+LABEL: fig:dynpub
+#+ATTR_HTML: :width 65%
+[[file:img/dynamic_publication_formats.jpg]]
 
 
 * TODO Open Source Science Tools                                        :Tim:
