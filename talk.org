@@ -12,8 +12,10 @@
 - Wichtige Informationen werden vorenthalten
 
 ** Verfügbarbarkeit von Daten und Code
-- Warum beides so wichtig ist
-- Probleme im aktuellen System
+- Papers müssen reproduzierbar sein.
+- Ohne Details sind Papers nur Werbung.
+- Wahre Leistungen häufig in Code und/oder Daten
+
 
 ** Reproduzierbare Ergebnisse
 - Grundlage der Wissenschaft
