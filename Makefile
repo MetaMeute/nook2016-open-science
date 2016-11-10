@@ -2,7 +2,9 @@ open: talk.html
 	sensible-browser $<
 
 talk.html: talk.org reveal.js
-	pandoc --standalone --slide-level=2 --to revealjs --css style.css -o $@ $<
+	pandoc --standalone --slide-level=2 --to revealjs \
+		--css style.css --filter ./filters/transform-notes.hs \
+		-S -o $@ $<
 
 talk.pdf: talk.org
 	pandoc --standalone --slide-level=2 --to beamer -o $@ $<
