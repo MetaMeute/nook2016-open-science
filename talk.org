@@ -1,33 +1,67 @@
 #+TITLE: Open Science
 #+SUBTITLE: Wissenschaft im digitalen Zeitalter
-#+AUTHOR: Tim Becker, Albert Krewinkel
+#+AUTHOR: Albert Krewinkel
 #+DATE: MetaNook, 11.11.2016
 #+OPTIONS: H:9 todo:nil
 
 * TODO Was ist Open Science?
 
-** Offene Publikationen
+** Publikationen
+Wissenschaftliches Publikationswesen arbeitet mit
+- alten Methoden,
+- einem alten System und
+- enthält dabei Informationen vor.
+
+#+BEGIN_notes
+Publikationswesen arbeitet mit
 - Methoden des letzten Jahrhunderts
-- Ein System des vorletzten Jahrhunderts
-- Wichtige Informationen werden vorenthalten
+- System des vorletzten Jahrhunderts
+- Im Zeitalter großer Datenmengen nicht zeitgemäß
+#+END_notes
 
 ** Verfügbarbarkeit von Daten und Code
 - Papers müssen reproduzierbar sein.
 - Ohne Details sind Papers nur Werbung.
-- Wahre Leistungen häufig in Code und/oder Daten
+- Wahre Leistungen steckt in Code und/oder Daten.
 
+#+BEGIN_notes
+- Ziel eines Papers ist Wissens­vermittlung und Nachvollziehbarkeit
+- Ein Paper ist nur noch Werbung für die eigentlichen Erkenntnisse
+- die komplizierten Sachverhalte und Annahmen sind oft im Code vorhanden.
+- Implizite Annahmen im Paper, explizite Annahmen im Code
+- Daten können fehlinterpretiert werden.
+#+END_notes
 
 ** Reproduzierbare Ergebnisse
 - Grundlage der Wissenschaft
 - Auffindbarkeit von Fehlern
 
+#+BEGIN_notes
+Karl Popper, 1934:
+#+BEGIN_QUOTE
+non-reproducible single occurrences are of no significance to science
+#+END_QUOTE
+
+Krise in Wissenschaftszweigen:
+- Krebsforschung
+- Medikamentenforschung
+#+END_notes
+
 
 * TODO Kultur
 
 ** Wissenschaftliche Kultur
-- Publikationen wichtig für Karriere
-- Papers momentan einziger Weg
-- Daten und Code werden nicht gewürdigt
+Traditionelle Publikationen
+- sind wichtig für die Karriere,
+- werden gewürdigt,
+- ignorieren Daten und Code.
+
+#+BEGIN_notes
+- Traditionelle Publikationen :: Bücher, Papers
+- Würdigung :: Doktoranden- und Professorenstellen
+- Ignorieren :: Aufarbeitung kostet Zeit, ist für den Wissenschaftsprozess aber
+     sehr wertvoll.
+#+END_notes
 
 ** Publikationsformate
 #+CAPTION: Pochoda (2012)
@@ -36,11 +70,22 @@
 #+ATTR_HTML: :width 85%
 [[file:img/dynamic_publication_formats_4.png]]
 
+#+BEGIN_notes
+Überblick über verschiedene Formate
+#+END_notes
+
 ** Effekte von Open Science
 - Überprüfbarkeit von Ergebnissen
-- Fehler sind leichter zu finden
-- Beschleunigter Fortschritt
-- Neue Publikationsmöglichkeiten
+- Vereinfachung der Fehlersuche
+- Beschleunigung, Strukturänderung
+
+#+BEGIN_notes
+- Überprüfbarkeit :: nur möglich wenn Daten und Code vorhanden
+- Fehler :: "Bugs" sind leichter sichtbar -- vergleichbar mit Open Source
+- Beschleunigung :: auf Ergebnisse der Kollegen zu stützen,
+     Publikations­möglichkeiten, Peer-Review
+#+END_notes
+
 
 ** Dynamische Publikationen
 
@@ -50,16 +95,33 @@
 #+ATTR_HTML: :width 65%
 [[file:img/dynamic_publication_formats.jpg]]
 
+#+BEGIN_notes
+- Ähnlich zu einem Wiki
+- Gemeinsam verfasste Referenztexte
+- Creative Commons Lizenz als Grundlage
+#+END_notes
 
-* TODO Open Source Science Tools                                        :Tim:
+
+* TODO Open Source Science Tools
 
 ** Source Code
 - ~git~ :: Versionskontrolle
 -  [[https://github.com][GitHub]] :: (Standard-)Webseite zum Hosten des Codes
 
+#+BEGIN_notes
+- ~git~ :: Nachprüfbarkeit
+- github :: Standard, DOI verfügbar
+#+END_notes
+
+
 ** Daten
 - ~git~ :: auch Daten haben Versionen
 - [[https://dat-data.org][~dat~]] :: Sicherer transfer; verteilte und versionierte Daten
+
+#+BEGIN_notes
+Andere Optionen möglich; Journals bieten upload an, aber häufig nicht für das
+notwendige Datenvolumen.
+#+END_notes
 
 ** TODO Texte
 - [[https://jupyter.org][Jupyter]] :: Notebook Software
@@ -69,6 +131,19 @@
 
 * Fin
 
-** Danke!
-Folien sind Online unter\\
+** Danke.
+Vielen Dank an Tim Becker für die Unterstützung.
+
+Folien sind Online erreichbar unter\\
 <https://github.com/MetaMeute/nook2016-open-science>.
+
+** ? → ‽ → ! → ❗ ← ¡ ← ⸘ ← ¿
+
+#+BEGIN_notes
+Beidseitiges Fragen
+
+- Erfahrungen mit Paywalls
+- Internetnutzung?
+- Schreibsoftware?
+- Vertrauen auf Wiki -- Nachvollziehbarkeit
+#+END_notes
