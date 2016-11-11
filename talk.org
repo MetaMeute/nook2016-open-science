@@ -4,18 +4,32 @@
 #+DATE: MetaNook, 11.11.2016
 #+OPTIONS: H:9 todo:nil
 
-* TODO Was ist Open Science?
+* Was ist Open Science?
 
 ** Publikationen
 Wissenschaftliches Publikationswesen arbeitet mit
 - alten Methoden,
 - einem alten System und
-- enthält dabei Informationen vor.
+- großen Marktmächten unterworfen.
 
 #+BEGIN_notes
 Publikationswesen arbeitet mit
 - Methoden des letzten Jahrhunderts
 - System des vorletzten Jahrhunderts
+#+END_notes
+
+** Probleme
+Das Publikationswesen ist
+- starr,
+- überteuert,
+- intransparent und
+- enthält Informationen vor.
+
+#+BEGIN_notes
+Publikationswesen arbeitet mit
+- Print vs webseiten
+- Firmen ziehen große Profite aus der Wissenschaft
+- Peer-Review, Entscheidungen sind undurchsichtig
 - Im Zeitalter großer Datenmengen nicht zeitgemäß
 #+END_notes
 
@@ -48,13 +62,13 @@ Krise in Wissenschaftszweigen:
 #+END_notes
 
 
-* TODO Kultur
+* Kultur
 
 ** Wissenschaftliche Kultur
 Traditionelle Publikationen
-- sind wichtig für die Karriere,
-- werden gewürdigt,
-- ignorieren Daten und Code.
+- sind wichtig für die Karriere und
+- werden gewürdigt, aber
+- tollerieren Vernachlässigung von Daten und Code.
 
 #+BEGIN_notes
 - Traditionelle Publikationen :: Bücher, Papers
@@ -102,17 +116,16 @@ Traditionelle Publikationen
 #+END_notes
 
 
-* TODO Open Source Science Tools
+* Open Science Tools
 
 ** Source Code
 - ~git~ :: Versionskontrolle
 -  [[https://github.com][GitHub]] :: (Standard-)Webseite zum Hosten des Codes
 
 #+BEGIN_notes
-- ~git~ :: Nachprüfbarkeit
+- ~git~ :: nimmt Angst vor Veränderungen, macht Änderungen nachverfolgbar
 - github :: Standard, DOI verfügbar
 #+END_notes
-
 
 ** Daten
 - ~git~ :: auch Daten haben Versionen
@@ -123,10 +136,18 @@ Andere Optionen möglich; Journals bieten upload an, aber häufig nicht für das
 notwendige Datenvolumen.
 #+END_notes
 
-** TODO Texte
+** Texte
 - [[https://jupyter.org][Jupyter]] :: Notebook Software
 - [[http://pandoc.org][Pandoc]] :: Universeller Dokumentenkonverter
 - [[https://authorea.com/][Authorea]] :: Kollaboratives Schreiben
+
+#+BEGIN_notes
+Projekte sind verlinkt
+
+LaTeX ist nur in Spezialfällen notwendig: Markdown!!
+
+Onlinesuche nach Kooperationswerkzeugen hilft
+#+END_notes
 
 
 * Fin
@@ -146,4 +167,5 @@ Beidseitiges Fragen
 - Internetnutzung?
 - Schreibsoftware?
 - Vertrauen auf Wiki -- Nachvollziehbarkeit
+- Demo Pandoc
 #+END_notes
