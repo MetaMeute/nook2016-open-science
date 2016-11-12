@@ -1,21 +1,43 @@
 open: talk.html
 	sensible-browser $<
 
-talk.html: talk.org reveal.js
+all: talk.html talk.tex talk.pdf talk-handout.pdf talk-notes.pdf
+
+talk.html: talk.json reveal.js
 	pandoc --standalone --slide-level=2 --to revealjs \
 		--css style.css --filter ./filters/transform-notes.hs \
 		-S -o $@ $<
 
-talk.pdf: talk.org
-	pandoc --standalone --slide-level=2 --to beamer -o $@ $<
+talk.tex: talk.json
+	pandoc --standalone --slide-level=2 --to beamer \
+		--filter ./filters/transform-notes-beamer.hs \
+		-o $@ $<
 
-talk-handout.pdf: talk.org
-	pandoc --standalone --to latex -o $@ $<
+talk.pdf: talk.json
+	pandoc --standalone --slide-level=2 --to beamer \
+		--filter ./filters/transform-notes-beamer.hs \
+		--latex-engine=xelatex --latex-engine-opt=--shell-escape \
+		-o $@ $<
+
+talk-notes.pdf: talk.json
+	pandoc --standalone --slide-level=2 --to beamer \
+		--filter ./filters/transform-notes-beamer.hs \
+		--latex-engine=xelatex \
+		--metadata='classoption:notes=only' \
+		-o $@ $<
+
+talk-handout.pdf: talk.json
+	pandoc --standalone --to latex \
+		--latex-engine=xelatex \
+		-o $@ $<
+
+talk.json: talk.org
+	pandoc -S --standalone --to json -o $@ $<
 
 reveal.js:
 	git submodule update --init
 
 clean:
-	rm talk-handout.pdf talk.pdf talk.html
+	git clean -dXf
 
-.PHONY: clean open
+.PHONY: all clean open
